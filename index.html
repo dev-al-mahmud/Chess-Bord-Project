@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Section</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Section styles */
+        .aab_boxes_section.grey {
+            background-color: #f5f5f5;
+            padding: 60px 20px;
+        }
+
+        /* Flex container for content */
+        .content_flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Text wrapper */
+        ._1_sc_txt_wrp {
+            flex: 1 1 300px;
+            min-width: 300px;
+        }
+
+        ._1_headline {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        ._1_paragraph {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Grid layout */
+        .w-layout-grid._1_box_grid_aab {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        /* Video and icon card styles */
+        ._1_box.grid_box_a,
+        ._1_box.grid_box_b {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        ._1_video_container {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+
+        ._1_video_container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        ._1_info_icon_card {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        ._1_info_icon_small.purple {
+            background-color: rgb(140, 158, 255);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        ._1_info_icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Text box for grid item */
+        ._1_box_txt_wrp.white {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        ._1_headline4_single_line {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        ._1_caption {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .content_flex {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            ._1_headline {
+                font-size: 28px;
+            }
+        }
+    </style>
+    <!-- Webflow scripts -->
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68347c4f01f02ca0560488e1" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1/js/webflow.123456789.js" type="text/javascript"></script>
+</head>
+<body>
+    <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7185" class="aab_boxes_section grey">
+        <div class="content_flex">
+            <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7188" class="_1_sc_txt_wrp">
+                <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e718a" class="_1_sc_title_wrp-2">
+                    <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e718b" class="_1_headline" style="transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">Packed with goodness</div>
+                </div>
+                <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e718d" class="_1_sc_btxt_wrp">
+                    <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e718e" class="_1_paragraph" style="transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+                </div>
+            </div>
+            <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7190" class="w-layout-grid _1_box_grid_aab wf-grid">
+                <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7191" class="_1_box grid_box_a">
+                    <div data-poster-url="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-poster-00001.jpg" data-video-urls="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.mp4,https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-w-id="d2f7a0a0-664a-b928-ef9c-e16db4c21bee" class="_1_video_container w-background-video w-background-video-atom">
+                        <video id="d2f7a0a0-664a-b928-ef9c-e16db4c21bee-video" autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover" style="background-image: url(https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-poster-00001.jpg);">
+                            <source src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.mp4" data-wf-ignore="true">
+                            <source src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.webm" data-wf-ignore="true">
+                        </video>
+                    </div>
+                    <div data-w-id="6e895ffb-d1ec-3278-8831-79cf7b791da5" class="_1_info_icon_card">
+                        <div data-w-id="6e895ffb-d1ec-3278-8831-79cf7b791da6" class="_1_info_icon_small purple">
+                            <img src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1/68347c4f01f02ca05604895a_Info_Icon_White-01.svg" loading="lazy" data-w-id="6e895ffb-d1ec-3278-8831-79cf7b791da7" alt="Information icon" class="_1_info_icon">
+                        </div>
+                    </div>
+                </div>
+                <div id="w-node-_65a6468e-e3e6-1e3a-9eb1-530d2a9e7192-560488e0" data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7192" class="_1_box grid_box_a">
+                    <div data-poster-url="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-poster-00001.jpg" data-video-urls="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.mp4,https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-w-id="3145ebbd-bff2-1ed0-93f2-5116fced1224" class="_1_video_container w-background-video w-background-video-atom">
+                        <video id="3145ebbd-bff2-1ed0-93f2-5116fced1224-video" autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover" style="background-image: url(https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-poster-00001.jpg);">
+                            <source src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.mp4" data-wf-ignore="true">
+                            <source src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.webm" data-wf-ignore="true">
+                        </video>
+                    </div>
+                    <div data-w-id="b979c324-9c4d-e51b-15a6-64af1d0c09e4" class="_1_info_icon_card">
+                        <div data-w-id="b979c324-9c4d-e51b-15a6-64af1d0c09e5" class="_1_info_icon_small purple">
+                            <img src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1/68347c4f01f02ca05604895a_Info_Icon_White-01.svg" loading="lazy" data-w-id="b979c324-9c4d-e51b-15a6-64af1d0c09e6" alt="Information icon" class="_1_info_icon">
+                        </div>
+                    </div>
+                </div>
+                <div id="w-node-_65a6468e-e3e6-1e3a-9eb1-530d2a9e7193-560488e0" data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7193" class="_1_box grid_box_b">
+                    <div data-poster-url="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-poster-00001.jpg" data-video-urls="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.mp4,https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-w-id="c7767c21-c3dc-28c1-d53c-1b1de2f6d0e7" class="_1_video_container w-background-video w-background-video-atom">
+                        <video id="c7767c21-c3dc-28c1-d53c-1b1de2f6d0e7-video" autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover" style="background-image: url(https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-poster-00001.jpg);">
+                            <source src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.mp4" data-wf-ignore="true">
+                            <source src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1%2F683482b50e9eee1b35f88f67_Video_Template2-transcode.webm" data-wf-ignore="true">
+                        </video>
+                    </div>
+                    <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7194" class="_1_box_txt_wrp white">
+                        <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7196" class="_1_box_ttl_wrp white">
+                            <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7197" class="_1_headline4_single_line">Perfect alignment</div>
+                        </div>
+                        <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e7199" class="_1_box_btxt_wrp white">
+                            <div data-w-id="65a6468e-e3e6-1e3a-9eb1-530d2a9e719a" class="_1_caption">5-Zoned pocket spring base</div>
+                        </div>
+                    </div>
+                    <div data-w-id="321cfcec-222e-b0cd-e5b7-38e23b35f3fe" class="_1_info_icon_card">
+                        <div data-w-id="321cfcec-222e-b0cd-e5b7-38e23b35f3ff" class="_1_info_icon_small purple">
+                            <img src="https://cdn.prod.website-files.com/68347c4f01f02ca0560488e1/68347c4f01f02ca05604895a_Info_Icon_White-01.svg" loading="lazy" data-w-id="321cfcec-222e-b0cd-e5b7-38e23b35f400" alt="Information icon" class="_1_info_icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
